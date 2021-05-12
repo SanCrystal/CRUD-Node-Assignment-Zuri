@@ -4,7 +4,7 @@
     "description": "creates read updates deletes data",
     "main": "app.js",
     "engines": {
-        "node": "10.x"
+        "node": "16.x"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,6 @@
     "dependencies": {
         "dotenv": "^9.0.2",
         "express": "^4.17.1",
-        "mongoose": "^5.12.7"
+        "mongoose": "^5.12.8"
     }
 }
