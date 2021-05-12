@@ -14,11 +14,11 @@ A simple application that connects to the database and performs CRUD operations
 
 **FOLDER STRUCTURE**
     **src**
-        |- controllers --> usersController
-        |- database --> db
-        |- models --> userSchema
-        |- router --> usersRouter
-        |- app
+        |-- controllers --> usersController
+        |-- database --> db
+        |-- models --> userSchema
+        |-- router --> usersRouter
+        |-- app
     
 
 ## steps 
