@@ -1,6 +1,21 @@
 # CRUD-Node-Assignment-Zuri
 A simple application that connects to the database and performs CRUD operations
 
+## GIT URL 
+    ** https://github.com/SanCrystal/CRUD-Node-Assignment-Zuri
+
+
+## DEPLOYED URL ON HEROKU 
+    ** https://crud-node-assignment-zuri.herokuapp.com/
+
+##APP ROUTES
+    *Home page --> ('/')
+    *Create New user --> ( 'https://crud-node-assignment-zuri.herokuapp.com/users/register')
+    *Fetch single user --> ('https://crud-node-assignment-zuri.herokuapp.com/users/:id')
+    *Fetch all users --> ('https://crud-node-assignment-zuri.herokuapp.com/users')
+    *update a user --> ('https://crud-node-assignment-zuri.herokuapp.com/users/:id')
+    *delete a user --> ('https://crud-node-assignment-zuri.herokuapp.com/users/:id')
+
 ## CRUD APP 
 ## Technology /Tools 
     * Node
@@ -20,13 +35,7 @@ A simple application that connects to the database and performs CRUD operations
         |-- router --> usersRouter
         |-- app
     
-##APP ROUTES
-    *Home page --> ('/')
-    *Create New user --> ( '/users/register')
-    *Fetch single user --> ('/users/:id')
-    *Fetch all users --> ('/users)
-    *update a user --> ('/users/:id)
-    *delete a user --> ('/users/:id)
+
 ## steps 
     * 1. Setup an express server by requiring express and calling it.
     * 2. Setup an ORM for interating with the database (Mongoose)
