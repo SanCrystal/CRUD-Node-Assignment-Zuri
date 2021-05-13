@@ -9,14 +9,14 @@ A simple application that connects to the database and performs CRUD operations
     ** https://crud-node-assignment-zuri.herokuapp.com/
 
 ##  APP ROUTES
-*test id* --- *609cfe54ecde3f2cb8816b3b*
-
+*test id* --- *609cfe54ecde3f2cb8816b3b*   
+..._use test id to test routes below_
 
 
 **_Home page_** >  [home](https://crud-node-assignment-zuri.herokuapp.com/)
 ---
 
-**_Create New user_** >  [create a new user](https://crud-node-assignment-zuri.herokuapp.com/users/register)
+**_Create New user_** >  [create a new user](https://crud-node-assignment-zuri.herokuapp.com/users/register)  _creating new users object has to be passed from the body,[ no UI for passing data] use postman for testing_
 ---
 
 **_Fetch single user_** >  [fetch a single user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
