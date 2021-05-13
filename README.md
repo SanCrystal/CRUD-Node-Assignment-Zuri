@@ -8,21 +8,28 @@ A simple application that connects to the database and performs CRUD operations
 ### DEPLOYED URL ON HEROKU 
     ** https://crud-node-assignment-zuri.herokuapp.com/
 
-##APP ROUTES
-    *test id* --- *609cfe54ecde3f2cb8816b3b*
-    
-    **Home page** ---  [home](https://crud-node-assignment-zuri.herokuapp.com/)
+##  APP ROUTES
+*test id* --- *609cfe54ecde3f2cb8816b3b*
 
-    **Create New user** ---  [create a new user](https://crud-node-assignment-zuri.herokuapp.com/users/register)
 
-    **Fetch single user** ---  [fetch a single user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
 
-    **Fetch all users** ---  [fetch all users](https://crud-node-assignment-zuri.herokuapp.com/users)
+**_Home page_** >  [home](https://crud-node-assignment-zuri.herokuapp.com/)
+---
 
-    **update a user** ---  [update a user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
+**_Create New user_** >  [create a new user](https://crud-node-assignment-zuri.herokuapp.com/users/register)
+---
 
-    **delete a user** ---  [delete a user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
+**_Fetch single user_** >  [fetch a single user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
+---
 
+**_Fetch all users_** >  [fetch all users](https://crud-node-assignment-zuri.herokuapp.com/users)
+---
+
+**_update a user_** >  [update a user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
+---
+
+**_delete a user_** >  [delete a user](https://crud-node-assignment-zuri.herokuapp.com/users/:id)
+---
 ## CRUD APP 
 ### Technology /Tools 
     1. Node
@@ -34,13 +41,25 @@ A simple application that connects to the database and performs CRUD operations
     2. Mongoose
     3. Nodemon (for development purposes)
 
-**FOLDER STRUCTURE** ##
+**FOLDER STRUCTURE** 
+
+
     **src**
+
+
         | --- controllers --> usersController
+
+
         | --- database --> db
+
+
         | --- models --> userSchema
+
+
         | --- router --> usersRouter
-        | --- app
+
+
+        | --- app (entry file)
     
 
 ### steps 
