@@ -30,9 +30,10 @@ exports.fetchSingleUser = (req, res) => {
 //controller for fetching all users
 
 exports.fetchAllUsers = (req, res) => {
+
     User.find({}, (err, result) => {
+        if (Object.keys(result).length === 0) return res.status(404).json({ message: "Could not fetch users" });
         if (err) return res.status(500).json({ message: err })
-        if (!result) return res.status(404).json({ message: "User not found" })
         res.status(200).json({ message: "User(s) sucessfully fetched!", data: result })
     });
 
