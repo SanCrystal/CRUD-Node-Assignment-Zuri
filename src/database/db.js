@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 //mongodb connection string 
-const { connectionString } = process.env;
-console.log(connectionString)
+const { CONNECTION_STRING } = process.env;
+console.log(CONNECTION_STRING)
     //connect mongoose to the database
 module.exports = () => {
-    mongoose.connect(connectionString, {
+    mongoose.connect(CONNECTION_STRING, {
         useUnifiedTopology: true,
         useNewUrlParser: true,
         useFindAndModify: false
