@@ -11,7 +11,7 @@ const userRoutes = require('./router/usersRouter')
 
 
 //get port 
-const PORT_ = process.env.PORT_ || 5500;
+const PORT = process.env.PORT || 5500;
 
 
 //instantiate our app 
@@ -27,4 +27,4 @@ app.use(express.urlencoded({ extended: true }))
 app.use(userRoutes);
 
 //listen to application on port
-app.listen(PORT_, () => console.log(`Server is up on port ${PORT_}`));
+app.listen(PORT, () => console.log(`Server is up on port ${PORT}`));
