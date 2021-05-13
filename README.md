@@ -20,7 +20,13 @@ A simple application that connects to the database and performs CRUD operations
         |-- router --> usersRouter
         |-- app
     
-
+##APP ROUTES
+    *Home page --> ('/')
+    *Create New user --> ( '/users/register')
+    *Fetch single user --> ('/users/:id')
+    *Fetch all users --> ('/users)
+    *update a user --> ('/users/:id)
+    *delete a user --> ('/users/:id)
 ## steps 
     * 1. Setup an express server by requiring express and calling it.
     * 2. Setup an ORM for interating with the database (Mongoose)

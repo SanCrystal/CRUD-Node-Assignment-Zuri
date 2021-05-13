@@ -5,9 +5,10 @@ const express = require('express');
 const router = express.Router();
 
 //require users controllers
-const { createNewUser, fetchSingleUser, fetchAllUsers, updateUser, deleteUser } = require('../controllers/usersControllers');
-
-//route for creating a new user 
+const { createNewUser, fetchSingleUser, fetchAllUsers, updateUser, deleteUser, homepage } = require('../controllers/usersControllers');
+//homepage route
+router.get('/', homepage)
+    //route for creating a new user 
 router.post('/users/register', createNewUser);
 
 //route for fetching single user

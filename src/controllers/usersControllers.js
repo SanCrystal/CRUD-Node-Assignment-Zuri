@@ -1,5 +1,8 @@
 const User = require('../models/userSchema')
-
+    //home page
+exports.homepage = (req, res) => {
+    res.status(200).json({ message: { Title: "CRUD APPLICATION ASSIGNMENT", routes: { createANewUser: "/users/register", fetchAsingleUser: "/users/:id", fetchAllTheUsers: "/users", updateAUser: "/users/:id", deleteAuser: "/users/:id" } } })
+}
 
 //controller for creating a new user
 exports.createNewUser = function(req, res) {
